@@ -123,5 +123,13 @@ GNU General Public License along with this program.  If not, see <http://www.gnu
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-      </application>
+        <activity
+            android:name=".sao_header"
+            android:label="Sword Art Online" >
+            <intent-filter>
+                <action android:name="org.omnirom.DaylightHeaderPack1" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
 </manifest>
