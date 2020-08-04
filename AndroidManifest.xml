@@ -95,7 +95,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         <activity
             android:name=".space_interval"
             android:label="Space" >
-            <intent-filter>
+            <intent-filter>AndroidManifest
                 <action android:name="org.omnirom.DaylightHeaderPack1" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
@@ -131,7 +131,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
             android:name=".hunterxhunter"
             android:label="HunterxHunter" >
             <intent-filter>
-                <action android:name="org.omnirom.DaylightHeaderPack1" />
+                <action android:name="org.omnirom.DaylightHeaderPack1" />AndroidManifest
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
@@ -139,6 +139,15 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         <activity
             android:name=".shingeki_no_kyojin"
             android:label="Shingeki no Kyojin" >
+            <intent-filter>
+                <action android:name="org.omnirom.DaylightHeaderPack1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".kimetsu_no_yaiba"
+            android:label="Kimetsu no Yaiba" >
             <intent-filter>
                 <action android:name="org.omnirom.DaylightHeaderPack1" />
 
